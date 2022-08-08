@@ -1,0 +1,34 @@
+body {
+    background-color: lightblue;
+}
+.container {
+    position: relative;
+    left: 400px;
+    top: 250px;
+}
+button {
+    height: 50px;
+    width: 80px;
+    border: 4px solid sandybrown;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+}
+.grow { transition: all .2s ease-in;}
+.grow:hover { transform: scale(1.1);}
+    
+#result {
+    position: relative;
+    left: 490px;
+    top: 300px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    position: relative;
+    top: 200px;
+    left: 400px;
+
+}
